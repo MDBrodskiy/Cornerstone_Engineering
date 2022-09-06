@@ -19,8 +19,8 @@
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
-* [**Notes**](#Notes)
-  * [**Includes**](#Notes/Includes.tex)
+* [**Notes**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Notes)
+  * [**Includes**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Notes/Includes.tex)
 <!--
   * [**Chapter 1**](#Notes/Chapter\ 1)
 * [**Exams**](#Exams)
