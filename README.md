@@ -2,7 +2,7 @@
 <br />
 <p align="left">
   <a href="https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/LICENSE">
-    <img src="images/license.svg" alt="license" width="100" height="24"></a>
+    <img src="images/LicenseImage.svg" alt="license" width="100" height="24"></a>
 </p>
 <br/>
 <br/>
