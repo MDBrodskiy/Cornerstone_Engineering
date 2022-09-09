@@ -19,8 +19,11 @@
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
-* [**Notes**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Notes)
+* [**Notes**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Notes/)
   * [**Includes**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Notes/Includes.tex)
+  * [**Figures**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Notes/Figures/)
+    * [**Engineering Design Process**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Notes/Figures/EDP.tex)
+  * [**Introduction to Engineering**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Notes/Notes1.pdf)
 <!--
   * [**Chapter 1**](#Notes/Chapter\ 1)
 * [**Exams**](#Exams)
