@@ -24,6 +24,7 @@
   * [**Figures**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Notes/Figures/)
     * [**Engineering Design Process**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Notes/Figures/EDP.tex)
   * [**Introduction to Engineering**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Notes/Notes1.pdf)
+  * [**Defining Problems**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Notes/Notes2.pdf)
 <!--
   * [**Chapter 1**](#Notes/Chapter\ 1)
 * [**Exams**](#Exams)
