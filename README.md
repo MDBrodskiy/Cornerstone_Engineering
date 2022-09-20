@@ -28,6 +28,7 @@
   * [**Documentation**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Notes/Notes3.pdf)
   * [**Teamwork**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Notes/Notes4.pdf)
   * [**Programming**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Notes/Notes5.pdf)
+  * [**Generating Solutions**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Notes/Notes6.pdf)
 <!--
   * [**Chapter 1**](#Notes/Chapter\ 1)
 * [**Exams**](#Exams)
