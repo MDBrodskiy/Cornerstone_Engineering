@@ -1,0 +1,61 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Written By Michael Brodskiy
+% Class: Cornerstone Engineering 1 & 2 (GE1501 & GE1502)
+% Professor: B. O'Connell
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{Includes.tex}
+
+\title{Algorithmic Thinking and Representations Homework}
+\date{\today}
+\author{Michael Brodskiy\\ \small Professor: B. O'Connell}
+
+\begin{document}
+
+\maketitle
+
+\listoffigures
+
+\begin{enumerate}
+
+    \newpage
+
+  \item Marble Flowchart:
+
+    \begin{figure}[H]
+      \centering \include{Figures/Marble.tex}
+      \caption{Flowchart for Drawing the Largest Marble}
+      \label{fig:1}
+    \end{figure}
+
+    \newpage
+
+  \item Rock Paper Scissors Pseudocode:
+
+    \begin{algorithm}
+      \caption{Rock, Paper, Scissors}\label{RPS}
+      \begin{algorithmic}[1]
+        \Procedure{Rock Paper Scissors}{}
+        \State Players (P1 \& P2) Throw Hands
+        \If {P1 has rock}
+            \If {P2 has scissors} P1 wins $\rightarrow$ Game ends
+            \ElsIf {P2 has paper} P2 wins $\rightarrow$ Game ends
+            \Else { Tie $\rightarrow$ Play again}
+        \EndIf
+        \ElsIf {P1 has scissors}
+            \If {P2 has paper} P1 Wins $\rightarrow$ Game ends
+            \ElsIf {P2 has rock} P2 Wins $\rightarrow$ Game ends
+            \Else { Tie $\rightarrow$ Play again}
+        \EndIf
+        \Else
+            \If {P2 has rock} P1 Wins $\rightarrow$ Game ends
+            \ElsIf{P2 has scissors} P2 Wins $\rightarrow$ Game ends
+            \Else { Tie $\rightarrow$ Play again}
+        \EndProcedure
+      \end{algorithmic}
+    \end{algorithm}
+
+\end{enumerate}
+
+\end{document}
+
