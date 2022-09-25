@@ -1,0 +1,68 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt]{article}
+
+\input{structure.tex} % Include the file specifying the document structure and styling
+
+%----------------------------------------------------------------------------------------
+%	INVOICE INFORMATION
+%----------------------------------------------------------------------------------------
+
+\taxrate{0.0625} % The tax rate used to automatically calculate tax, must be set to a decimal between 0 and 1 (for no tax set to 0)
+
+%------------------------------------------------
+% Invoice information
+
+\invoiceref{P1M1} % Invoice number
+\invoiceissued{September 26, 20222} % Date issued
+\invoicedue{\bold{--}} % Due date, a number of days into the future, use 0 for due on receipt
+\projectname{Milestone 1}
+
+%------------------------------------------------
+% Recipient/payee information
+
+\payeename{\textbf{The Malignity of Goblins}}
+\payeejob{\textcolor{red}{Northeastern University}}
+\payeeaddresslineone{Henry Shields}
+\payeeaddresslinetwo{Neil Dungca}
+\payeecontactlineone{Michael Brodskiy}
+\payeecontactlinetwo{Michael Levy}
+
+%------------------------------------------------
+% Sender information
+
+\companyname{Bill of Materials} % Displayed in large letters at the top, can be replaced with an image or left blank for no company
+
+\sendername{Professor O'Connell}
+\senderjob{\textcolor{red}{Northeastern University}}
+\senderaddresslineone{}
+\senderaddresslinetwo{}
+\sendercontactlineone{}
+\sendercontactlinetwo{}
+
+%------------------------------------------------
+
+\termsandconditions{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent porttitor arcu luctus, imperdiet urna iaculis, mattis eros. Pellentesque iaculis odio vel nisl ullamcorper, nec faucibus ipsum molestie. Sed dictum nisl non aliquet porttitor. Etiam vulputate arcu dignissim, finibus sem et, viverra nisl. Aenean luctus congue massa, ut laoreet metus ornare in. \newline\newline Aliquam arcu turpis, ultrices sed luctus ac, vehicula id metus. Morbi eu feugiat velit, et tempus augue. Proin ac mattis tortor. Donec tincidunt, ante rhoncus luctus semper, arcu lorem lobortis justo, nec convallis ante quam quis lectus. Aenean tincidunt sodales massa, et hendrerit tellus mattis ac. Sed non pretium nibh.} % Note: must use \newline for new lines in this command 
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	INVOICE ITEMS
+%----------------------------------------------------------------------------------------
+
+\begin{invoice}
+	\begin{invoicetable}
+      \invoiceitem{No Items}{1}{0.0}
+		%\invoiceitem{Heavy wrought anvil}{1}{5600}
+		%\invoiceitem{Dynamite sticks}{25}{25.95}
+		%\invoiceitem{Exploding tennis balls}{7}{49.99}
+	\end{invoicetable}
+\end{invoice}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
