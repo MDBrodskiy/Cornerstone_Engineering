@@ -19,6 +19,8 @@
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
+* [**Homework**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Homework/)
+    * [**Algorithmic Thinking Lab**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Homework/ATR_MBROD.pdf)
 * [**Notes**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Notes/)
   * [**Includes**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Notes/Includes.tex)
   * [**Figures**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Notes/Figures/)
