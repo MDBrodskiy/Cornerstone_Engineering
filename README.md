@@ -32,6 +32,8 @@
   * [**Programming**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Notes/Notes5.pdf)
   * [**Generating Solutions**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Notes/Notes6.pdf)
   * [**Decision-Making**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Notes/Notes7.pdf)
+  * [**Decision Metrics**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Notes/Notes8.pdf)
+  * [**Implementation**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Notes/Notes9.pdf)
 <!--
   * [**Chapter 1**](#Notes/Chapter\ 1)
 * [**Exams**](#Exams)
