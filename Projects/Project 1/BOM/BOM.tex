@@ -15,10 +15,10 @@
 %------------------------------------------------
 % Invoice information
 
-\invoiceref{P1M1} % Invoice number
-\invoiceissued{September 26, 20222} % Date issued
-\invoicedue{\bold{--}} % Due date, a number of days into the future, use 0 for due on receipt
-\projectname{Milestone 1}
+\invoiceref{P1M2} % Invoice number
+\invoiceissued{October 3, 2022} % Date issued
+\invoicedue{\textbf{--- --- --- --- ---}} % Due date, a number of days into the future, use 0 for due on receipt
+\projectname{Milestone 2}
 
 %------------------------------------------------
 % Recipient/payee information
@@ -44,7 +44,8 @@
 
 %------------------------------------------------
 
-\termsandconditions{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent porttitor arcu luctus, imperdiet urna iaculis, mattis eros. Pellentesque iaculis odio vel nisl ullamcorper, nec faucibus ipsum molestie. Sed dictum nisl non aliquet porttitor. Etiam vulputate arcu dignissim, finibus sem et, viverra nisl. Aenean luctus congue massa, ut laoreet metus ornare in. \newline\newline Aliquam arcu turpis, ultrices sed luctus ac, vehicula id metus. Morbi eu feugiat velit, et tempus augue. Proin ac mattis tortor. Donec tincidunt, ante rhoncus luctus semper, arcu lorem lobortis justo, nec convallis ante quam quis lectus. Aenean tincidunt sodales massa, et hendrerit tellus mattis ac. Sed non pretium nibh.} % Note: must use \newline for new lines in this command 
+%\termsandconditions{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent porttitor arcu luctus, imperdiet urna iaculis, mattis eros. Pellentesque iaculis odio vel nisl ullamcorper, nec faucibus ipsum molestie. Sed dictum nisl non aliquet porttitor. Etiam vulputate arcu dignissim, finibus sem et, viverra nisl. Aenean luctus congue massa, ut laoreet metus ornare in. \newline\newline Aliquam arcu turpis, ultrices sed luctus ac, vehicula id metus. Morbi eu feugiat velit, et tempus augue. Proin ac mattis tortor. Donec tincidunt, ante rhoncus luctus semper, arcu lorem lobortis justo, nec convallis ante quam quis lectus. Aenean tincidunt sodales massa, et hendrerit tellus mattis ac. Sed non pretium nibh.} % Note: must use \newline for new lines in this command 
+\termsandconditions{Any items denoted in \textcolor{green}{green text} indicate items that are highly likely to be utilized. Items denoted with \textcolor{yellow}{yellow text} indicate items which are tentative, or whose use in our design may be questionable. Items denoted in \textcolor{red}{red text} indicate items that are not recoverable. This means they can not be readily recycled from sources which have already used them, and, therefore, may not meet project requirements.}
 
 %----------------------------------------------------------------------------------------
 
@@ -56,10 +57,13 @@
 
 \begin{invoice}
 	\begin{invoicetable}
-      \invoiceitem{No Items}{1}{0.0}
-		%\invoiceitem{Heavy wrought anvil}{1}{5600}
-		%\invoiceitem{Dynamite sticks}{25}{25.95}
-		%\invoiceitem{Exploding tennis balls}{7}{49.99}
+      \invoiceitem{\textcolor{green}{Cardboard}}{20}{0.0563}
+      \invoiceitem{\textcolor{green}{Cardstock}}{5}{0.1067}
+      \invoiceitem{\textcolor{green}{Duct Tape}}{1}{7.77}
+      \invoiceitem{\textcolor{yellow}{Popsicle Sticks}}{4}{0.25}
+      \invoiceitem{\textcolor{red}{PLA Filament}}{0}{0.72}
+      \invoiceitem{\textcolor{red}{ABS Filament}}{0}{0.75}
+      \invoiceitem{\textcolor{yellow}{String}}{1}{0.02}
 	\end{invoicetable}
 \end{invoice}
 
