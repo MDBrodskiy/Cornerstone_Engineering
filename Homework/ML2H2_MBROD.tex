@@ -1,0 +1,53 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Written By Michael Brodskiy
+% Class: Cornerstone Engineering 1 & 2 (GE1501 & GE1502)
+% Professor: B. O'Connell
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{Includes.tex}
+
+\title{ML2H2 Pseudocode}
+\date{\today}
+\author{Michael Brodskiy\\ \small Professor: B. O'Connell}
+
+\begin{document}
+
+\maketitle
+
+    \begin{algorithm}
+      \caption{Photonics Window Test}\label{Photonics}
+      \begin{algorithmic}[1]
+        \Procedure{Window Tests Check}{}
+        \State Load collected test data from \textsc{TestConditions.txt};
+        \State Initialize counter variables;
+        \State Initialize ID tracker array;
+        \State Initialize flag variable for total failure collection to false;
+        \For {each value ($i$) in the height of the data matrix\\ \hspace{32pt}} 
+            \If {The $i$-th value of temperature is less than 8 or more than 12} 
+                \State Increase the temperature counter by 1;
+                \State Add the $i$-th ID value to the temperature ID tracker array in counter position;
+                \State Set flag variable to true
+            \EndIf
+            \If {The $i$-th value of pressure is less than 1000 or more than 1200} 
+                \State Increase the pressure counter by 1;
+                \State Add the $i$-th ID value to the pressure ID tracker array;
+                \State Set flag variable to true
+            \EndIf
+            \If {The $i$-th value of discharge time is less than 1 or more than 2.25} 
+                \State Increase the discharge time counter by 1;
+                \State Add the $i$-th ID value to the discharge time ID tracker array;
+                \State Set flag variable to true
+            \EndIf
+            \If {The flag variable is true}
+                \State Increase the total failure count by one
+            \EndIf
+        \EndFor
+        \For {Each data output requested\\ \hspace{32pt}}
+            {\textsc{fprintf} to print data};
+        \EndFor
+        \EndProcedure
+      \end{algorithmic}
+    \end{algorithm}
+
+\end{document}
+
