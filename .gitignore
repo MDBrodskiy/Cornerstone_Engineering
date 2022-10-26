@@ -248,6 +248,39 @@ TSWLatexianTemp*
 # generated if using elsarticle.cls
 *.spl
 
+# prerequisites
+*.d
+
+# compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# precompiled Headers
+*.gch
+*.pch
+
+# compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# fortran module files
+*.mod
+*.smod
+
+# compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# executables
+*.exe
+*.out
+*.app
+
 # additional course-related document
 SafetyCertificate.pdf
 MR.pdf
