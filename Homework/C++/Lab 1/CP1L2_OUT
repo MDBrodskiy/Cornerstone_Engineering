@@ -1,0 +1,11 @@
+Welcome to the Great Circular Calculator!
+Please Enter a Radius Value: 1
+The circumference is: 6.283e+00
+The area is: 3.142e+00
+Would you like to make another calculation?
+Enter 'Yes' or 'No': Yes
+Please Enter a Radius Value: 4
+The circumference is: 2.513e+01
+The area is: 5.027e+01
+Would you like to make another calculation?
+Enter 'Yes' or 'No': No
