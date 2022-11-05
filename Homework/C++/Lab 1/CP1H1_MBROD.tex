@@ -1,0 +1,58 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Written By Michael Brodskiy
+% Class: Cornerstone Engineering 1 & 2 (GE1501 & GE1502)
+% Professor: B. O'Connell
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{Includes.tex}
+
+\title{CP1H1 Script, Output, and Pseudocode}
+\date{\today}
+\author{Michael Brodskiy\\ \small Professor: B. O'Connell}
+
+\begin{document}
+
+\maketitle
+
+    \begin{algorithm}
+      \caption{Powers of 2}\label{2}
+      \begin{algorithmic}[1]
+        \Procedure{Powers of 2}{}
+        \State Print out first line of the table
+        \For {the numbers 0-8}
+            \State Print the number, tab, and print value
+        \EndFor
+      \end{algorithmic}
+    \end{algorithm}
+
+\lstinputlisting[
+    caption=CP1H1 Script, % Caption above the listing
+	label=lst:L1, % Label for referencing this listing
+	language=C++, % Use C++ functions/syntax highlighting
+	frame=single, % Frame around the code listing
+	showstringspaces=false, % Don't put marks in string spaces
+	numbers=left, % Line numbers on left
+	numberstyle=\tiny, % Line numbers styling
+    backgroundcolor=\color{black!5}, % Set background color
+    keywordstyle=\color{magenta!80}, % Set keyword color
+    commentstyle=\color{blue!80}, % Set comment color
+    stringstyle=\color{green!80} % Set string color
+  ]{CP1H1_MBROD.cpp}
+
+\lstinputlisting[
+    caption=CP1H1 Output, % Caption above the listing
+	label=lst:L2, % Label for referencing this listing
+	language=text, % Text file 
+	frame=single, % Frame around the code listing
+	showstringspaces=false, % Don't put marks in string spaces
+	numbers=left, % Line numbers on left
+	numberstyle=\tiny, % Line numbers styling
+    backgroundcolor=\color{black!5}, % Set background color
+    keywordstyle=\color{magenta!80}, % Set keyword color
+    commentstyle=\color{blue!80}, % Set comment color
+    stringstyle=\color{green!80} % Set string color
+  ]{CP1H1_OUT}
+
+
+\end{document}
+

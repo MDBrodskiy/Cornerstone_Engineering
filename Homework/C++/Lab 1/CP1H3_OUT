@@ -1,0 +1,30 @@
+Enter the name of the acid: Cysteine
+Enter # of atoms of Oxygen: 2
+Enter # of atoms of Carbon: 3
+Enter # of atoms of Nitrogen: 1
+Enter # of atoms of Sulfur: 1
+Enter # of atoms of Hydrogen: 7
+The total molecular weight of Cysteine is: 121.160 u
+The average atomic weight of Cysteine is: 8.654 u
+Would you like to calculate another acid?
+Enter 'Yes' or 'No': Yes
+Enter the name of the acid: Glycine
+Enter # of atoms of Oxygen: 2
+Enter # of atoms of Carbon: 2
+Enter # of atoms of Nitrogen: 1
+Enter # of atoms of Sulfur: 0
+Enter # of atoms of Hydrogen: 5
+The total molecular weight of Glycine is: 75.067 u
+The average atomic weight of Glycine is: 7.507 u
+Would you like to calculate another acid?
+Enter 'Yes' or 'No': Yes
+Enter the name of the acid: Methionine
+Enter # of atoms of Oxygen: 2
+Enter # of atoms of Carbon: 5
+Enter # of atoms of Nitrogen: 1
+Enter # of atoms of Sulfur: 1
+Enter # of atoms of Hydrogen: 11
+The total molecular weight of Methionine is: 149.214 u
+The average atomic weight of Methionine is: 7.461 u
+Would you like to calculate another acid?
+Enter 'Yes' or 'No': No

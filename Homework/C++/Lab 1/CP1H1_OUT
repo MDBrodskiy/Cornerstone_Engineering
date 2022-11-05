@@ -1,0 +1,11 @@
+Power (P)	Value of 2^P
+    0		    1
+    1		    2
+    2		    4
+    3		    8
+    4		    16
+    5		    32
+    6		    64
+    7		    128
+    8		    256
+Press ENTER or type command to continue
