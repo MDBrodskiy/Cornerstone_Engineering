@@ -1,0 +1,23 @@
+ --- Ticker Tape Calculator --- 
+ Enter operator and operand to 
+ run and record calculations.  
+
+Enter the output file name: TickerTape.txt
+Enter the decimal point accuracy: 3
+Enter operation (+,-,*,/,=,e): +
+Enter operand: 679.275
+0.000 + 679.275 = 679.275
+Enter operation (+,-,*,/,=,e): -
+Enter operand: 273.564
+679.275 - 273.564 = 405.711
+Enter operation (+,-,*,/,=,e): ]
+Enter operand: 39
+ERROR: character ] unknown
+Enter operation (+,-,*,/,=,e): *
+Enter operand: 2
+405.711 * 2.000 = 811.422
+Enter operation (+,-,*,/,=,e): /
+Enter operand: 39
+811.422 / 39.000 = 20.806
+Enter operation (+,-,*,/,=,e): e
+Print total
