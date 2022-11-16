@@ -1,0 +1,30 @@
+  --- Baby Name Counter ---  
+ Loads a text file and then compares 
+ it to an inputted baby name 
+
+Enter a File Name: BabyNames.txt
+
+Enter a Baby Name: Michael
+
+The name Michael was popular at least once in the last 100 years
+
+Run program again (yes/no)? yes
+
+Enter a Baby Name: Filip
+
+The name Filip was not popular at least once in the last 100 years
+
+Run program again (yes/no)? yes
+
+Enter a Baby Name: Mary
+
+The name Mary was popular at least once in the last 100 years
+
+Run program again (yes/no)? yes
+
+Enter a Baby Name: Martha
+
+The name Martha was not popular at least once in the last 100 years
+
+Run program again (yes/no)? no
+
