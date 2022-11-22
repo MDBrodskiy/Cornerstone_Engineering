@@ -1,0 +1,57 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Written By Michael Brodskiy
+% Class: Cornerstone Engineering 1 & 2 (GE1501 & GE1502)
+% Professor: B. O'Connell
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{Includes.tex}
+
+\title{SF4H1 Pseudocode}
+\date{\today}
+\author{Michael Brodskiy\\ \small Professor: B. O'Connell}
+
+\begin{document}
+
+\maketitle
+
+    \begin{algorithm}
+      \caption{SF4H1}\label{SF4H1}
+      \begin{algorithmic}[1]
+        \Procedure{Temperature Sensor with Thermostat Control}{}
+        \State Define necessary variables and port numbers
+        \State Set screen contrast
+        \State Set cursor to first line
+        \State Print first line
+        \State Set cursor to second line
+        \State Print second line
+        \State Delay 2500 ms
+        \State Clear screen
+        \State Set cursor to first line
+        \State Print first line
+        \State Set cursor to second line
+        \State Print second line
+        \State Delay 2500 ms
+        \State Begin loop
+        \If {Button has been pressed AND Not the same as previous button state AND More than 100 ms has passed}
+            \State Switch units
+            \State Print units
+        \EndIf
+        \If {In Celsius mode AND More than 5000 ms have passed}
+            \State Print Celsius
+            \State Restart timer
+        \ElsIf {In Fahrenheit mode AND More than 5000 ms have passed}
+            \State Print Fahrenheit
+            \State Restart timer
+        \EndIf
+        \State Print thermostat temperature on second line
+        \If {Thermostat temperature is greater than threshold temperature}
+            \State Buzz one tone for 500 ms
+            \State Buzz other tone for 500 ms
+            \State Restart timer
+        \EndIf
+        \EndProcedure
+      \end{algorithmic}
+    \end{algorithm}
+
+\end{document}
+
