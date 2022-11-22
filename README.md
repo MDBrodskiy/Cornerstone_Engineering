@@ -75,6 +75,7 @@
         * [**Milestone 2 Flowchart**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Projects/Project%202/P2M2.pdf)
         * [**Sources**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Projects/Project%202/Sources.pdf)
         * [**Town Hall Presentation**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Projects/Project%202/TownHall.pdf)
+    * [**Design Exam**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Projects/DesignExam.pdf)
 <!--
   * [**Chapter 1**](#Notes/Chapter\ 1)
 * [**Exams**](#Exams)
