@@ -35,6 +35,8 @@
             * [**Lesson 2 Part 1**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Homework/C%2B%2B/Lab%202/CP2L1_MBROD.pdf)
             * [**Lesson 2 Part 2**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Homework/C%2B%2B/Lab%202/CP2L2_MBROD.pdf)
             * [**Homework 2 Part 2**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Homework/C%2B%2B/Lab%202/CP2H2_MBROD.pdf)
+        * [**Lab 3**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Homework/C%2B%2B/Lab%203/)
+            * [**Lesson 3 Part 1**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Homework/C%2B%2B/Lab%202/CP3L1_MBROD.pdf)
     * [**MATLAB**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Homework/MATLAB/)
         * [**Homework 2**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Homework/MATLAB/ML2H/)
             * [**Part 1**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Homework/MATLAB/ML2H/ML2H1_MBROD.pdf)
