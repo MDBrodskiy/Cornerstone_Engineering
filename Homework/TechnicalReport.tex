@@ -1,0 +1,338 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{tocloft}
+\usepackage{lipsum}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\hypersetup{
+colorlinks=true,
+linkcolor=black,
+filecolor=black,      
+urlcolor=black,
+citecolor=black,
+}
+\pagenumbering{Roman}
+\renewcommand\thesection{\arabic{section}}
+\renewcommand\thesubsection{\thesection.\arabic{subsection}}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\titleformat{\subsection}
+  {\bfseries \Large}{\thesubsection}{1em}{}
+
+\renewcommand{\contentsname}{\LARGE \begin{center}\textbf{Table of Contents}\end{center}\vspace{-15pt}}
+\renewcommand{\listtablename}{\LARGE \begin{center}\textbf{List of Tables}\end{center}\vspace{-15pt}}
+\renewcommand{\listfigurename}{\LARGE \begin{center}\textbf{List of Figures}\end{center}\vspace{-15pt}}
+
+\let\LaTeXStandardTableOfContents\tableofcontents
+
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+
+\renewcommand{\cftsecfont}{\mdseries}
+\renewcommand{\cftsecpagefont}{\mdseries}
+
+\setcounter{section}{1}
+
+\setlength\cftsubsecnumwidth{4em}
+
+%\renewcommand\subsection{{\Large \bfseries}}
+
+\begin{document}
+
+\title{\centering \includegraphics[height=.11\textheight]{Figures/NEU.png}\\ \vspace{15pt} \textbf{Encryption: An Educational Exhibit}\\ \vspace{5pt}\large \textbf{Cornerstone of Engineering — Fall 2022, 13767}\\ \vspace{15pt} \centering \includegraphics[height=.4\textheight]{Figures/Encrypted.png}\\ \vspace{15pt} \textsc{Submitted By}:\\ \vspace{10pt} \centering \includegraphics[height=.125\textheight]{Figures/goblin.jpg} \\ \vspace{15pt} \textsc{Prepared By}:}
+
+\author{\IEEEauthorblockN{Henry Shields}
+\IEEEauthorblockA{\textit{Northeastern University} \\
+\textit{Computer Science \& Eng.}\\
+\href{mailto:Shields.H@Northeastern.edu}{Shields.H@Northeastern.edu}}
+\and
+\IEEEauthorblockN{Michael Brodskiy}
+\IEEEauthorblockA{\textit{Northeastern University} \\
+\textit{Physics \& Electrical Eng.}\\
+\href{mailto:Brodskiy.M@Northeastern.edu}{Brodskiy.M@Northeastern.edu}}
+\and
+\IEEEauthorblockN{Michael Levy}
+\IEEEauthorblockA{\textit{Northeastern University} \\
+\textit{Undecided}\\
+\href{mailto:Levy.Mi@Northeastern.edu}{Levy.Mi@Northeastern.edu}}
+\and
+\IEEEauthorblockN{Neil Dungca}
+\IEEEauthorblockA{\textit{Northeastern University} \\
+\textit{Chemical Eng.}\\
+\href{mailto:Dungca.N@Northeastern.edu}{Dungca.N@Northeastern.edu}}
+\and
+\textsc{Report Submitted}: December 5, 2022
+}
+
+\maketitle
+
+\onecolumn
+
+\addcontentsline{toc}{section}{ABSTRACT}
+
+\begin{center}
+\LARGE \textbf{ABSTRACT}
+\end{center}
+\begin{justify}
+  \lipsum[1]
+\end{justify}
+
+\addcontentsline{toc}{section}{INDEX TERMS}
+
+\begin{center}
+\LARGE \textbf{INDEX TERMS}\\
+\end{center}
+\begin{justify}
+  lorem, ipsum, dolor, sit, amet
+\end{justify}
+
+\newpage
+
+\Large
+
+\tableofcontents
+
+\newpage
+
+
+\addcontentsline{toc}{section}{LIST OF TABLES}
+
+\Large
+
+\listoftables
+
+\addcontentsline{toc}{section}{LIST OF FIGURES}
+
+\listoffigures
+
+\twocolumn
+
+\pagenumbering{arabic}
+
+\newpage
+
+\addcontentsline{toc}{section}{HENRY SHIELDS}
+
+\vspace{10pt} \LARGE \textbf{HENRY SHIELDS} \normalsize
+
+\subsection{Introduction}
+
+\lipsum[2-4]
+
+\subsection{Background}
+
+\lipsum[5-7]
+
+\subsection{Methodology}
+
+\lipsum[8-10]
+
+\addcontentsline{toc}{section}{MICHAEL BRODSKIY}
+
+\vspace{10pt} \LARGE \textbf{MICHAEL BRODSKIY} \normalsize
+
+\subsection{Introduction}
+
+\lipsum[11-13]
+
+\subsection{Background}
+
+\lipsum[14-16]
+
+\subsection{Methodology}
+
+\lipsum[17-19]
+
+\addcontentsline{toc}{section}{MICHAEL LEVY}
+
+\vspace{10pt} \LARGE \textbf{MICHAEL LEVY} \normalsize
+
+\subsection{Introduction}
+
+\lipsum[20-22]
+
+\subsection{Background}
+
+\lipsum[23-25]
+
+\subsection{Methodology}
+
+\lipsum[26-28]
+
+\addcontentsline{toc}{section}{NEIL DUNGCA}
+
+\vspace{10pt} \LARGE \textbf{NEIL DUNGCA} \normalsize
+
+\subsection{Introduction}
+
+\lipsum[29-31]
+
+\subsection{Background}
+
+\lipsum[32-34]
+
+\subsection{Methodology}
+
+\lipsum[35-37]
+
+\addcontentsline{toc}{section}{MALIGNITY OF GOBLINS}
+
+\vspace{10pt} \LARGE \textbf{MALIGNITY OF GOBLINS} \normalsize
+
+\subsection{Final Design}
+
+\lipsum[38-40]
+
+\subsection{Results}
+
+\lipsum[41-43]
+
+\addcontentsline{toc}{section}{HENRY SHIELDS}
+
+\vspace{10pt} \LARGE \textbf{HENRY SHIELDS} \normalsize
+
+\subsection{Discussion/Analysis}
+
+\lipsum[44-46]
+
+\subsection{Conclusion}
+
+\lipsum[47-49]
+
+\subsection{Recommendations}
+
+\lipsum[50-52]
+
+\subsection{Lessons Learned}
+
+\lipsum[53-55]
+
+\addcontentsline{toc}{section}{MICHAEL BRODSKIY}
+
+\vspace{10pt} \LARGE \textbf{MICHAEL BRODSKIY} \normalsize
+
+\subsection{Discussion/Analysis}
+
+\lipsum[56-58]
+
+\subsection{Conclusion}
+
+\lipsum[59-61]
+
+\subsection{Recommendations}
+
+\lipsum[62-64]
+
+\subsection{Lessons Learned}
+
+\lipsum[65-67]
+
+\addcontentsline{toc}{section}{MICHAEL LEVY}
+
+\vspace{10pt} \LARGE \textbf{MICHAEL LEVY} \normalsize
+
+\subsection{Discussion/Analysis}
+
+\lipsum[68-70]
+
+\subsection{Conclusion}
+
+\lipsum[71-73]
+
+\subsection{Recommendations}
+
+\lipsum[73-75]
+
+\subsection{Lessons Learned}
+
+\lipsum[76-78]
+
+\addcontentsline{toc}{section}{NEIL DUNGCA}
+
+\vspace{10pt} \LARGE \textbf{NEIL DUNGCA} \normalsize
+
+\subsection{Discussion/Analysis}
+
+\lipsum[79-81]
+
+\subsection{Conclusion}
+
+\lipsum[82-84]
+
+\subsection{Recommendations}
+
+\lipsum[85-87]
+
+\subsection{Lessons Learned}
+
+\lipsum[88-90]
+
+\onecolumn
+
+\addcontentsline{toc}{section}{REFERENCES}
+
+\begin{center}
+  \LARGE \textbf{References}  
+\end{center}
+
+\twocolumn
+
+\addcontentsline{toc}{section}{AUTHOR BIOGRAPHIES}
+
+  \LARGE \textbf{Author Biographies}  
+
+\onecolumn
+
+\addcontentsline{toc}{section}{APPENDICES}
+
+  \LARGE \textbf{APPENDICES}  
+
+\addcontentsline{toc}{subsection}{Appendix A — Team Contract}
+
+\Large \hspace{.5in} \textbf{APPENDIX A — TEAM CONTRACT}  
+
+\addcontentsline{toc}{subsection}{Appendix B — Decision Analysis} 
+
+   \hspace{.5in} \textbf{APPENDIX B — DESCISION ANALYSIS}  
+
+\addcontentsline{toc}{subsection}{Appendix C — Final AutoCAD/SOLIDWORKS Drawings}
+
+ \hspace{.5in}   \textbf{APPENDIX C — FINAL AUTOCAD/SOLIDWORKS DRAWINGS}  
+
+\addcontentsline{toc}{subsection}{Appendix D — Product Testing Results}
+
+ \hspace{.5in}   \textbf{APPENDIX D — PRODUCT TESTING RESULTS}  
+
+\addcontentsline{toc}{subsection}{Appendix E — Code Used in Project}
+
+ \hspace{.5in}   \textbf{APPENDIX E — CODE USED IN PROJECT}  
+
+\addcontentsline{toc}{subsection}{Appendix F — Wire Diagrams for Sparkfun Board}
+
+ \hspace{.5in}   \textbf{APPENDIX F — WIRE DIAGRAMS FOR SPARKFUN BOARDS}  
+
+\addcontentsline{toc}{subsection}{Appendix G — Photo Log}
+
+ \hspace{.5in}   \textbf{APPENDIX G — PHOTO LOG}  
+
+\addcontentsline{toc}{subsection}{Appendix H — Final Gantt Chart}
+
+ \hspace{.5in}   \textbf{APPENDIX H — FINAL GANTT CHART}  
+
+\addcontentsline{toc}{subsection}{Appendix I — Final Budget}
+
+ \hspace{.5in}   \textbf{APPENDIX I — FINAL BUDGET}  
+
+\addcontentsline{toc}{subsection}{Appendix J — Project Hours Log}
+
+ \hspace{.5in}   \textbf{APPENDIX J — PROJECT HOURS LOG}  
+
+\end{document}

@@ -5629,7 +5629,7 @@ between column types.}%
 
 
 %% SET UP THE DEFAULT PAGESTYLE
-\pagestyle{headings}
+\pagestyle{plain}
 \pagenumbering{arabic}
 
 % normally the page counter starts at 1
