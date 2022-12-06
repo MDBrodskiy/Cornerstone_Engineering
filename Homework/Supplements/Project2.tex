@@ -1,0 +1,85 @@
+\addtocounter{section}{1}
+\setcounter{subsection}{1}
+% WBS
+%update values for WBS1 (progress)
+\renewcommand{\one}   {   999   } %
+\renewcommand{\two}   {   999   } %
+\renewcommand{\three} {   999   } %
+\renewcommand{\four}  {   999   } %
+\renewcommand{\five}  {   50   } %
+\renewcommand{\six}   {    0    } %
+
+%Calculate total WBS1
+\FPeval{\result}{clip((\one+\two+\three+\four+\five)/5)}
+
+\ganttgroup[progress=95]{Project Two: Educational Exhibit}{2022-10-14}{2022-12-09} \\
+
+\ganttbar[name=M1A, bar inline label node/.style={right=1.5cm}, progress=\one]{Individual Research}{2022-10-14}{2022-10-18} \\
+
+\ganttlinkedbar[name=M1B, bar inline label node/.style={right=1.5cm}, progress=\one]{Synthesize Research}{2022-10-18}{2022-10-19} \\
+
+\ganttbar[name=M1C, bar inline label node/.style={right=1.5cm}, progress=\one]{Problem Statement}{2022-10-18}{2022-10-19} \\
+
+\ganttlinkedbar[name=M1D, bar inline label node/.style={right=1.5cm}, progress=\one]{Gantt Chart + Hours Log}{2022-10-19}{2022-10-19} \\
+
+\ganttbar[name=M1E, bar inline label node/.style={right=1.5cm}, progress=\one]{Finalize Memo}{2022-10-19}{2022-10-19} \\
+
+\ganttlinkedmilestone[name=MS1, progress=100, milestone inline label node/.style={right=0.5cm}, progress label text={}]{\textbf{Milestone 1}}{2022-10-19} \\
+
+\ganttbar[name=M2A, bar inline label node/.style={right=1.5cm}, progress=\one]{Discussing Ideas}{2022-10-21}{2022-10-21} \\
+
+\ganttbar[name=M2B, bar inline label node/.style={right=1.5cm}, progress=\one]{Ideation}{2022-10-22}{2022-10-25} \\
+
+\ganttbar[name=M2C, bar inline label node/.style={right=1.5cm}, progress=\one]{Visualize Ideas}{2022-10-22}{2022-10-25} \\
+
+\ganttbar[name=M2D, bar inline label node/.style={right=1.5cm}, progress=\one]{Update Resources}{2022-10-23}{2022-10-26} \\
+
+\ganttbar[name=M2E, bar inline label node/.style={right=1.5cm}, progress=\one]{Problem Statement}{2022-10-23}{2022-10-26} \\
+
+\ganttlinkedmilestone[name=MS2, progress=100, milestone inline label node/.style={right=0.5cm}, progress label text={}]{\textbf{Milestone:2}}{2022-10-26} \\
+
+\ganttbar[name=M3A, bar inline label node/.style={right=1.5cm}, progress=\one]{Solidworks Drawing}{2022-10-27}{2022-10-28} \\
+
+\ganttbar[name=M3B, bar inline label node/.style={right=1.5cm}, progress=\one]{Cardboard Prototype}{2022-10-30}{2022-11-02} \\
+
+\ganttbar[name=M3C, bar inline label node/.style={right=1.5cm}, progress=\one]{Bill of Materials}{2022-11-01}{2022-11-01} \\
+
+\ganttbar[name=M3D, bar inline label node/.style={right=2.5cm}, progress=\one]{Project Manager Tasks}{2022-10-27}{2022-11-02} \\
+
+\ganttbar[name=M3E, bar inline label node/.style={right=1.5cm}, progress=\one]{Flowchart}{2022-11-01}{2022-11-02} \\
+
+\ganttlinkedmilestone[name=MS3, progress=\result, milestone inline label node/.style={right=0.5cm}, progress label text={}]{\textbf{Milestone 3}}{2022-11-02} \\
+
+\ganttbar[name=M4A, bar inline label node/.style={right=1.5cm}, progress=\one]{Build Prototype (60\%)}{2022-11-04}{2022-11-09} \\
+
+\ganttbar[name=M4B, bar inline label node/.style={right=1.5cm}, progress=\one]{Proof of Concept}{2022-11-08}{2022-11-09} \\
+
+\ganttbar[name=M4C, bar inline label node/.style={right=1.5cm}, progress=\one]{Feedback Planning}{2022-11-06}{2022-11-09} \\
+
+\ganttbar[name=M4D, bar inline label node/.style={right=1.5cm}, progress=\one]{Resource Updates}{2022-11-06}{2022-11-09} \\
+
+\ganttlinkedmilestone[name=MS4, progress=\result, milestone inline label node/.style={right=0.5cm}, progress label text={}]{\textbf{Milestone 4}}{2022-11-09} \\
+
+\ganttbar[name=M5A, bar inline label node/.style={right=1.5cm}, progress=\one]{Build Prototype (90\%)}{2022-11-11}{2022-11-12} \\
+
+\ganttbar[name=M5B, bar inline label node/.style={right=1.5cm}, progress=\one]{Evaluate Feedback}{2022-11-12}{2022-11-14} \\
+
+\ganttbar[name=M5C, bar inline label node/.style={right=1.5cm}, progress=\one]{Update Resources}{2022-11-15}{2022-11-17} \\
+
+\ganttbar[name=M5D, bar inline label node/.style={right=1.5cm}, progress=\one]{Review Design}{2022-11-16}{2022-11-17} \\
+
+\ganttlinkedmilestone[name=MS5, progress=\result, milestone inline label node/.style={right=0.5cm}, progress label text={}]{\textbf{Milestone 5}}{2022-11-22} \\https://www.overleaf.com/project/638e5c2f00de3e34862312f0
+
+\ganttbar[name=M6A, bar inline label node/.style={right=3cm}, progress=\one]{Review Report Template}{2022-11-21}{2022-12-01} \\
+
+\ganttbar[name=M6B, bar inline label node/.style={right=3cm}, progress=\one]{Write Group Aspects}{2022-11-21}{2022-12-01} \\
+
+\ganttbar[name=M6C, bar inline label node/.style={right=3cm}, progress=\one]{Write Individual Parts}{2022-11-21}{2022-12-01} \\
+
+\ganttbar[name=M6D, bar inline label node/.style={right=3cm}, progress=\one]{Plan Tri-fold}{2022-11-21}{2022-12-01} \\
+
+\ganttlinkedmilestone[name=MS6, progress=\result, milestone inline label node/.style={right=0.5cm}, progress label text={}]{\textbf{Milestone 6}}{2022-12-02} \\
+
+\ganttbar[name=M7A, bar inline label node/.style={left=2cm}, progress=\five]{Cont. Group Elements}{2022-11-30}{2022-12-05} \\
+
+\ganttbar[name=M7B, bar inline label node/.style={left=1.5cm}, progress=\one]{Finish Individual Aspects}{2022-12-03}{2022-12-05} \\
