@@ -22,6 +22,7 @@
 * [**Homework**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Homework/)
     * [**Algorithmic Thinking Lab**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Homework/ATR_MBROD.pdf)
     * [**Value Sensitive Design**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Homework/D3VSD.pdf)
+    * [**Engineering Ethics**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Homework/D4Ethics.pdf)
     * [**C++**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Homework/C++/)
         * [**Lab 0**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Homework/C%2B%2B/Lab%200/)
             * [**Lesson 1**](https://github.com/MDBrodskiy/Cornerstone_Engineering/tree/master/Homework/C%2B%2B/Lab%200/CP0L1_MBROD.pdf)
