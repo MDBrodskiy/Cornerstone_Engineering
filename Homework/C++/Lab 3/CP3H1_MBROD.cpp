@@ -60,14 +60,14 @@ int main() {
   outfile << fixed << setprecision(4); // Set output file number formatting
 
   // Output initial values to text file
-  outfile << "Time (s)\t Temp (C)" << endl;
-  outfile << time << "\t" << tempS << endl;
+  outfile << "Time (s)" << "\t" << "Temp (C)" << endl;
+  outfile << time << "\t\t" << tempS << endl;
   
   do { // Loop through values until temperature difference is less than 1C
 
       time = time + timeStep;
       tempS = tempS + timeStep * rate_of_change(c, radius, tempS, tempL, rho, h);
-      outfile << time << "\t" << tempS  << timeStep * rate_of_change(c, radius, tempS, tempL, rho, h) << endl;
+      outfile << time << "\t\t" << tempS  << endl;
   
   } while (tempS - tempL > .1);
 
