@@ -31,7 +31,7 @@ double rate_of_change(int htc, double rad, double T, int Tl, int dens, int specH
 
 }
 
-// PROGRAM CharacterSorter
+// PROGRAM CP3H1
 int main() {
 
   // -- Declare Variables --
